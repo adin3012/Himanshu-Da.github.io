@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color:#377D71;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 0;
+    cursor: pointer;
+   
+}
+.Himanshu{
+    color: white;
+    display: contents;
+    font-family: 'ubuntu', sans-serif;
+}
+.nav-list{
+    
+    width :50%;
+    display : flex;
+    align-items: center;
+
+}
+.logo{
+    width:30%;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo img{
+    width : 30px;
+    border : 3px solid white;
+    border-radius: 50px;
+
+    
+}
+
+
+
+
+.nav-list li{
+    list-style: none;
+    padding : 20px 30px;
+
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+   font-size: 12px;
+    font-family: 'ubuntu', sans-serif;
+}
+
+
+.nav-list li a:hover{
+    text-decoration: none;
+    color: grey;
+
+}
+.rightnav{
+    width: 30%; 
+    text-align: right;
+    
+}
+#search{
+    padding : 5px;
+    font-size : 17px;
+    border : 2px solid grey;
+    border-radius: 9px;
+}
+
+   
+   
+
+.firstSection{
+    height : 50vh;
+    background-color: #377D71;
+    padding: 5px;
+    
+
+}
+.tutu{
+    width: 20px;
+    
+    
+    
+ 
+    
+    
+    
+    
+    
+}
+.box-main{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin:auto;
+   
+   
+    
+}
+.firstHalf{
+    width : 80%;
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.secondHalf{
+   width: 50%;
+
+}
+.secondHalf img{
+    width: 400px;
+    border: 4px solid white;
+    display: block;
+    margin: auto;
+    
+    display: block;
+    margin: auto;
+
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.text-big{
+    font-size: 20px;
+    
+
+}
+.text-small{
+    
+    font-size: 10px;
+}
+
+
+.Section{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+}
+.paras{
+    padding: 0px 65px;
+}
+.section-left{
+    flex-direction: row-reverse;
+}
+.sectionTag{
+    padding: 16px 0;
+}
+.sectionSubTag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Thumbnail img{
+    width: 250px;
+    border: 2px solid white;
+    border-radius: 26px;
+    margin-top: 19px;
+}
+.Thumbnail1 img{
+    width: 250px;
+    border: 2px solid white;
+    border-radius: 26px;
+    display: block;
+    margin: 0 auto 0 auto;
+
+}
+.contact-me{
+     height: 20px;
+    text-align: center;
+    padding: 20px;
+}
+.textc{
+    text-align: center;
+}
+.form{
+    max-width: 344px;
+    margin: auto;
+    text-align: center;
+    
+}
+.form input{
+    margin: 30px 0;
+   
+    font-size: 19px;
+    border: 2px solid grey;
+    border-radius: 6px;
+}
+.btn {
+   
+    background: #009dff;
+    background-image: -webkit-linear-gradient(top, #009dff, #2980b9);
+    background-image: -moz-linear-gradient(top, #009dff, #2980b9);
+    background-image: -ms-linear-gradient(top, #009dff, #2980b9);
+    background-image: -o-linear-gradient(top, #009dff, #2980b9);
+    background-image: linear-gradient(to bottom, #009dff, #2980b9);
+    -webkit-border-radius: 30;
+    -moz-border-radius: 30;
+    border-radius: 50px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cfc53;
+    background-image: -webkit-linear-gradient(top, #3cfc53, #3498db);
+    background-image: -moz-linear-gradient(top, #3cfc53, #3498db);
+    background-image: -ms-linear-gradient(top, #3cfc53, #3498db);
+    background-image: -o-linear-gradient(top, #3cfc53, #3498db);
+    background-image: linear-gradient(to bottom, #3cfc53, #3498db);
+    text-decoration: none;
+  }
+  .bottom-container{
+    background-color: #47B5FF;
+    padding: 30px 0 20px;
+    text-align: center;
+  
+  }
+  .text-footer{
+    text-align: center;
+    background-color: #47B5FF;
+    font-size: 10px;
+  }
+  .burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15%;
+
+
+  }
+  .line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+  }
+  @media only screen and (max-width: 1140px) {
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+        height: 560px;
+    }
+    .rightnav{
+        text-align: center;
+       
+
+        
+        
+       
+
+    }
+    .whatsapp-icon {
+        margin-top:10px;
+        }
+       .whatsapp_float {
+           width: 40px;
+           height: 40px;
+           bottom: 20px;
+           right: 10px;
+           font-size: 22px;}
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .secondHalf img{
+        width: 100%;
+
+    }
+    .secondHalf{
+        width: 50%;
+    }
+.Himanshu{
+    width: 100%;
+}
+.burger{
+    display: block;
+}
+.h-nav-resp{
+    height: 72px;
+}
+.v-class-resp{
+    opacity: 0;
+}
+.Section{
+    flex-direction: column-reverse;
+}
+.text-small{
+    text-align: center;
+
+}
+.text-big{
+    text-align: center;
+}
+.paras{
+    padding: 0px;
+}
+    
+
+}
+/* for desktop */
+.whatsapp_float {
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+        font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+        z-index:100;
+}
+
+.whatsapp-icon {
+	margin-top:16px;
+}
+
+
